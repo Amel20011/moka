@@ -1,22 +1,18 @@
 {
-  "name": "liviaa-bot",
+  "name": "astheric-bot",
   "version": "1.0.0",
-  "description": "Simple WhatsApp Bot with Baileys MD",
-  "main": "liviaa.js",
+  "description": "WhatsApp Bot with Baileys",
+  "main": "index.js",
   "scripts": {
-    "start": "node liviaa.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "whatsapp-bot",
-    "baileys",
-    "nodejs"
-  ],
-  "author": "Amelia",
+  "keywords": ["whatsapp", "bot", "baileys"],
+  "author": "YourName",
   "license": "ISC",
   "dependencies": {
-    "@adiwajshing/keyed-db": "^0.2.4",
-    "@whiskeysockets/baileys": "github:kiuur/baileys",
-    "pino": "^8.14.1",
-    "qrcode-terminal": "^0.12.0"
+    "@adiwajshing/baileys": "^latest",
+    "dotenv": "^16.0.0",
+    "mongoose": "^7.0.0" // Contoh jika pakai MongoDB
   }
 }
