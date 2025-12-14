@@ -1,0 +1,22 @@
+{
+  "name": "liviaa-bot",
+  "version": "1.0.0",
+  "description": "Simple WhatsApp Bot with Baileys MD",
+  "main": "liviaa.js",
+  "scripts": {
+    "start": "node liviaa.js"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "baileys",
+    "nodejs"
+  ],
+  "author": "Amelia",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@whiskeysockets/baileys": "github:kiuur/baileys",
+    "pino": "^8.14.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
